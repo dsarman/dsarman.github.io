@@ -66,6 +66,11 @@ const { activeNav } = Astro.props;
             </a>
           </li>
           <li>
+            <a href="/signin/" class={activeNav === "signin" ? "active" : ""}>
+              F&F
+            </a>
+          </li>
+          <li>
             <LinkButton
               href="/search/"
               className={`focus-outline p-3 sm:p-1 ${
