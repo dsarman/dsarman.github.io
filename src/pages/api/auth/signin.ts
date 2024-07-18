@@ -15,6 +15,7 @@ export const POST: APIRoute = async ({
     return new Response("Email and password are required", { status: 400 });
   }
 
+  // @ts-ignore
   const { env } = locals.runtime;
 
   const { data, error } = await supabase(
