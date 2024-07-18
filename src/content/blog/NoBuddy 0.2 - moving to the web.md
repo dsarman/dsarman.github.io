@@ -1,6 +1,6 @@
 ---
 date: 2022-04-12
-post-slug: nobuddy-moving-to-the-web
+slug: nobuddy-moving-to-the-web
 description: Moving from a mobile only solution to a web one.
 tags:
   - Expo

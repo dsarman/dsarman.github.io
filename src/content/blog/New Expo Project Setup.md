@@ -4,7 +4,7 @@ tags:
   - React Native
 date: 2022-01-25
 description: Setting up a new Expo project with absolute imports and Prettier.
-post-slug: new-expo-project-setup
+slug: new-expo-project-setup
 title: New Expo Project Setup
 categories:
 pubDatetime: 2022-01-25

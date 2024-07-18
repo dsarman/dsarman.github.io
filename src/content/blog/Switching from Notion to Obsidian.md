@@ -1,6 +1,6 @@
 ---
 date: 2022-06-01
-post-slug: switching-from-notion-to-obsidian
+slug: switching-from-notion-to-obsidian
 description: Moving away from the cloud.
 tags:
   - Obsidian

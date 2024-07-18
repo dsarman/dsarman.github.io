@@ -4,7 +4,7 @@ tags:
   - Coding Tutorial
   - Expo
 date: 2022-03-22
-post-slug: nobuddy-app-first-poc
+slug: nobuddy-app-first-poc
 description: My first POC for a mobile app that would help me with my daily tasks.
 title: NoBuddy app first POC
 categories:

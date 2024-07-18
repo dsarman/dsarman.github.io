@@ -5,7 +5,7 @@ tags:
   - React Native
 date: 2021-12-21
 description: From React Native to native Android app, and back to React Native again.
-post-slug: starting-new-side-project-for-a-few-times
+slug: starting-new-side-project-for-a-few-times
 title: Starting new side project ... for a few times
 categories:
 pubDatetime: 2021-12-21

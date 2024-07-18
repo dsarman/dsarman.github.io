@@ -4,153 +4,86 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="194c9c5a-0ff1-4187-adc9-609ce0f0ac24" name="Changes" comment="chore: updated PaperMod theme">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update-content.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/publish.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archetypes/default.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/archives.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/assets/test.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/pages/random page from logseq.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/search.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/_default/baseof.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/analytics-gtag.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/backlinks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/shortcodes/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/shortcodes/hint.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/shortcodes/logseq/mark.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/shortcodes/logseq/orgCAUTION.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/shortcodes/logseq/orgEXAMPLE.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/shortcodes/logseq/orgIMPORTANT.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/shortcodes/logseq/orgNOTE.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/shortcodes/logseq/orgPINNED.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/shortcodes/logseq/orgQUOTE.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/shortcodes/logseq/orgTIP.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/shortcodes/logseq/orgWARNING.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/shortcodes/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spell/ltex.dictionary.en-US.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spell/ltex.hiddenFalsePositives.en-US.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banner.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hugo-logo-wide.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hugosquare.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logseq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thanos_logseq_hugo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thanos_logseq_hugo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thanos_with_the_infinity_gauntlet_png_by_akithefullxd_des8k3n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/.github/ISSUE_TEMPLATE/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/.github/ISSUE_TEMPLATE/new-blank-issue.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/.github/stale.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/.github/workflows/gh-pages.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/css/common/404.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/css/common/archive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/css/common/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/css/common/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/css/common/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/css/common/post-entry.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/css/common/post-single.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/css/common/profile-mode.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/css/common/search.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/css/common/terms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/css/core/license.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/css/core/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/css/core/theme-vars.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/css/core/zmedia.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/css/extended/blank.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/css/hljs/an-old-hope.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/css/includes/scroll-bar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/js/fastsearch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/js/fuse.basic.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/js/highlight.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/js/license.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/ar.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/be.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/bg.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/bn.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/ca.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/ckb.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/da.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/de.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/en.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/eo.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/es.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/fa.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/fr.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/he.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/hi.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/hr.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/hu.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/id.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/it.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/ja.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/ko.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/ku.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/mn.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/ms.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/nl.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/pl.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/pt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/ru.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/sv.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/tr.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/uk.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/uz.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/vi.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/zh-tw.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/i18n/zh.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/images/screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/images/tn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/_default/_markup/render-image.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/_default/archives.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/_default/baseof.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/_default/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/_default/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/_default/rss.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/_default/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/_default/single.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/_default/terms.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/anchored_headings.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/author.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/breadcrumbs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/comments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/cover.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/edit_post.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/extend_footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/extend_head.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/head.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/home_info.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/index_profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/post_canonical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/post_meta.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/post_nav_links.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/share_icons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/social_icons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/svg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/templates/opengraph.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/templates/schema_json.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/templates/twitter_cards.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/translation_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/shortcodes/collapse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/shortcodes/figure.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/shortcodes/inTextImg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/shortcodes/ltr.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/shortcodes/rawhtml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/shortcodes/rtl.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/theme.toml" beforeDir="false" />
+    <list default="true" id="194c9c5a-0ff1-4187-adc9-609ce0f0ac24" name="Changes" comment="chore: Move to npm">
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.husky/pre-commit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/dev.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/forrest-gump-quote.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/astropaper-og.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/toggle-theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/publicExport.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/areas-goals-keyresults-diagram.excalidraw_1701967119920_0.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/excalidraw-okr-map.excalidraw_1701967169145_0.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/final-react-graph_1701967184248_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/nobuddy-mockup_1701905584511_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/nobuddy-mockup_1701905605481_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/notion-boolean_1701936131897_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/screen_recording_2022-09-01_at_22.57.06_1701967150919_0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/screenshot_2022-09-01_at_22.55.26_1701967135569_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/socialIcons.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Breadcrumbs.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Datetime.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hr.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LinkButton.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Search.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Socials.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tag.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/blog/Creating an Obsidian plugin.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/blog/New Expo Project Setup.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/blog/NoBuddy 0.2 - moving to the web.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/blog/NoBuddy app first POC.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/blog/Starting new side project ... for a few times.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/blog/Switching from Notion to Obsidian.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/blog/Visualising with Obsidian &amp; Dataview.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/AboutLayout.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Layout.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Main.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/PostDetails.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Posts.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/og.png.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/posts/[slug]/index.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/posts/[slug]/index.png.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/posts/index.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/robots.txt.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/rss.xml.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/search.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tags/[tag].astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tags/index.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/generateOgImages.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/getPageNumbers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/getPostsByTag.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/getSortedPosts.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/getUniqueTags.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/og-templates/post.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/og-templates/site.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/slugify.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,9 +133,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/assets/assets" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/content/blog" />
       <recent name="$PROJECT_DIR$/content/pages" />
     </key>
@@ -240,6 +173,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -251,7 +191,9 @@
       <workItem from="1701882476495" duration="3376000" />
       <workItem from="1701886050065" duration="5697000" />
       <workItem from="1701892721903" duration="766000" />
-      <workItem from="1701893498241" duration="16190000" />
+      <workItem from="1701893498241" duration="17224000" />
+      <workItem from="1701985058713" duration="8000" />
+      <workItem from="1721332066562" duration="2590000" />
     </task>
     <task id="LOCAL-00001" summary="chore: updated PaperMod theme">
       <option name="closed" value="true" />
@@ -261,7 +203,31 @@
       <option name="project" value="LOCAL" />
       <updated>1701887425442</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: Initial commit of astro powered site">
+      <option name="closed" value="true" />
+      <created>1701968622897</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701968622897</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: Initial commit of astro powered site">
+      <option name="closed" value="true" />
+      <created>1701968669769</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701968669769</updated>
+    </task>
+    <task id="LOCAL-00004" summary="chore: Move to npm">
+      <option name="closed" value="true" />
+      <created>1701968994946</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701968994946</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +236,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" a" />
     <MESSAGE value="chore: updated PaperMod theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: updated PaperMod theme" />
+    <MESSAGE value="feat: Initial commit of astro powered site" />
+    <MESSAGE value="chore: Move to npm" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: Move to npm" />
   </component>
 </project>

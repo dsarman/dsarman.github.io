@@ -1,6 +1,6 @@
 ---
 date: 2023-01-06
-post-slug: visualising-with-obsidian-and-dataview
+slug: visualising-with-obsidian-and-dataview
 description: React graphing libraries overview.
 tags:
   - Obsidian
