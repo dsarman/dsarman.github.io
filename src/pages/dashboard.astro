@@ -4,6 +4,7 @@ import { supabase } from "../lib/supabase";
 import Header from "../components/Header.astro";
 import Main from "../layouts/Main.astro";
 
+const { env } = Astro.locals.runtime;
 const { cookies, redirect } = Astro;
 
 const accessToken = cookies.get("sb-access-token");
@@ -13,7 +14,10 @@ if (!accessToken || !refreshToken) {
   return redirect("/signin");
 }
 
-const { data, error } = await supabase.auth.setSession({
+const { data, error } = await supabase(
+  env.SUPABASE_URL,
+  env.SUPABASE_ANON_KEY
+).auth.setSession({
   refresh_token: refreshToken.value,
   access_token: accessToken.value,
 });

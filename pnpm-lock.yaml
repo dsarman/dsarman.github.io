@@ -108,6 +108,9 @@ importers:
       react-dom:
         specifier: ^18.2.0
         version: 18.3.1(react@18.3.1)
+      wrangler:
+        specifier: ^3.65.0
+        version: 3.65.0(@cloudflare/workers-types@4.20240718.0)
 
 packages:
 

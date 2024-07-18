@@ -1,7 +1,12 @@
 import type { APIRoute } from "astro";
 import { supabase } from "../../../lib/supabase";
 
-export const POST: APIRoute = async ({ request, cookies, redirect }) => {
+export const POST: APIRoute = async ({
+  request,
+  cookies,
+  redirect,
+  locals,
+}) => {
   const formData = await request.formData();
   const email = formData.get("email")?.toString();
   const password = formData.get("password")?.toString();
@@ -10,7 +15,12 @@ export const POST: APIRoute = async ({ request, cookies, redirect }) => {
     return new Response("Email and password are required", { status: 400 });
   }
 
-  const { data, error } = await supabase.auth.signInWithPassword({
+  const { env } = locals.runtime;
+
+  const { data, error } = await supabase(
+    env.SUPABASE_URL,
+    env.SUPABASE_ANON_KEY
+  ).auth.signInWithPassword({
     email,
     password,
   });
