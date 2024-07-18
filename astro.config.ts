@@ -37,6 +37,9 @@ export default defineConfig({
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
     },
+    ssr: {
+      external: ["@resvg/resvg-js"],
+    },
   },
   scopedStyleStrategy: "where",
   output: "server",
